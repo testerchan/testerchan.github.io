@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body{
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    margin: 0;
+    background-image:url("bg01.png");
+}
+
+.navi{
+    height: 50px;
+    padding: 10px;
+    background-color: #ff8888;
+}
+.inlineblock{
+    float:left;
+}
+
+.main{
+    background-image:url("main.png");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    height: 1200px;
+    margin: auto;
+}
+
+.left_column{
+
+}
+.main_column{
+
+}
+.right_column{
+
+    width:500px;
+}
+
+.main_column img{
+    max-width:920px;
+    height:auto;
+}
+
+.twitter{
+    margin: auto;
+    background-color: #B3E3E3;
+    border-radius: 30px;
+    width:400px;
+    
+}
+
+.contents{
+    background-color: #ff8888;
+    width:100%;
+}
+
+.title{
+    background-color: #ffffff;
+    border-radius: 50px;
+    width:500px;
+    height: 100px;
+}
+
+.message{
+    width:800px;
+    padding: 50px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #653511;
+}
+
+.button{
+    width:200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    float:left;
+    margin-left:20px;
+}
+
+.button_line{
+    width: 880px;
+    margin: auto;
+}
