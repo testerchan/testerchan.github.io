@@ -101,7 +101,7 @@ body{
     background-color: #FFFFFF;
     width: 100%;
     height: 100%;
-    animation: titleFade 10s, delete 10s 10s forwards;
+    animation: titleFade 5s, delete 5s 5s forwards;
 }
 
 @keyframes titleFade{
