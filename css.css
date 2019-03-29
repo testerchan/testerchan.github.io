@@ -83,3 +83,73 @@ body{
     width: 880px;
     margin: auto;
 }
+
+.attention{
+    font-size: 40px;
+    font-weight: bold;
+    color: #653511;
+}
+
+
+
+.intro3{
+    position: absolute;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    animation: titleFade 10s, delete 10s 10s forwards;
+}
+
+@keyframes titleFade{
+    0%{
+        opacity: 1;
+        background-image:url("white.jpg");
+    }
+    10%{
+        opacity: 1;
+        background-image:url("intro02.jpg");
+    }
+    40%{
+        opacity: 1;
+        background-image:url("intro02.jpg");
+    }
+    80%{
+        opacity: 1;
+        background-image:url("intro01.jpg");
+    }
+    100%{
+        opacity: 0;
+        background-image:url("intro01.jpg");
+    }
+    
+}
+
+
+@keyframes fadeOut {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
+@keyframes delete{
+    from{
+        width: 0px;
+        height: 0px;
+        z-index: 0;
+        display: none;
+    }
+    to{
+        width: 0px;
+        height: 0px;
+        z-index: 0;
+        display: none;
+    }
+    
+}
